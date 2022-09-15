@@ -31,6 +31,10 @@ p{
     margin-bottom: 50px;
 }
 
+/*-------
+  BOX CONTENUTI
+-------*/
+
 .box{
     color: white;
     width: calc(33.33% - 20px);
@@ -38,22 +42,29 @@ p{
     background-color: black;
     float: left;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 10px;
+    margin-bottom: 10px;
 }
+
+/*-------
+  INTERNO CONTENUTI
+-------*/
 
 h3{
     font-size: 20px;
     margin-bottom: 6px;
 }
 
+
 .info-profilo{
-    width: calc(100%-50px);
+    /* width: calc(100%-100px); Non ho notato differenze */
     padding-left: 8px;
     padding-top: 12px;
-    padding-right: 80px;
-    float: right;
+    float: left;
 }
 
 img{
+    float: left;
     height: 100px;
     width: 100px;
 }
@@ -61,6 +72,10 @@ img{
 a{
     color: aqua;
 }
+
+/*-------
+  CLEAR
+-------*/
 
 .clearfix::after{
     content: "";
